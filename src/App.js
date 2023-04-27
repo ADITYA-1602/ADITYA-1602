@@ -1,8 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import './assets/App.css';
 import './assets/variables.css'
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -25,31 +21,34 @@ import OnProj from "./components/OnProj";
 import CompProj from "./components/CompProj";
 import SponsColab from "./components/SponsColab";
 import Webinar from "./components/Webinar";
-import Chaitanya_talk from "./components/talks/Chaitanya_talk";
-import Mandal_Sandeep_talk from "./components/talks/Mandal_Sandeep_talk";
-import Aakash_talk from "./components/talks/Aakash_talk";
-import Manisha_talk from "./components/talks/Manisha_talk";
-import Rajdip_talk from "./components/talks/Rajdip_talk";
-import Masaru_talk from "./components/talks/Masaru_talk";
-import Sarvesh_talk from "./components/talks/Sarvesh_talk";
-import Jessica_talk from "./components/talks/Jessica_talk";
-import Rajaram_talk from "./components/talks/Rajaram_talk";
-import Ravindra_talk from "./components/talks/Ravindra_talk";
-import Nachiket_talk from "./components/talks/Nachiket_talk";
-import Jhumpa_talk from "./components/talks/Jhumpa_talk";
-import Naveen_talk from "./components/talks/Naveen_talk";
-import Surya_talk from "./components/talks/Surya_talk";
-import Pradip_talk from "./components/talks/Pradip_talk";
-import Guruswamy_talk from "./components/talks/Guruswamy_talk";
-import Yamuna_talk from "./components/talks/Yamuna_talk";
+import ChaitanyaTalk from "./components/talks/Chaitanya_talk";
+import MandalSandeepTalk from "./components/talks/Mandal_Sandeep_talk";
+import AakashTalk from "./components/talks/AakashTalk";
+import ManishaTalk from "./components/talks/Manisha_talk";
+import RajdipTalk from "./components/talks/Rajdip_talk";
+import MasaruTalk from "./components/talks/Masaru_talk";
+import SarveshTalk from "./components/talks/Sarvesh_talk";
+import JessicaTalk from "./components/talks/Jessica_talk";
+import RajaramTalk from "./components/talks/Rajaram_talk";
+import RavindraTalk from "./components/talks/Ravindra_talk";
+import NachiketTalk from "./components/talks/Nachiket_talk";
+import JhumpaTalk from "./components/talks/Jhumpa_talk";
+import NaveenTalk from "./components/talks/Naveen_talk";
+import SuryaTalk from "./components/talks/Surya_talk";
+import PradipTalk from "./components/talks/Pradip_talk";
+import GuruswamyTalk from "./components/talks/Guruswamy_talk";
+import YamunaTalk from "./components/talks/Yamuna_talk";
 import CorpRelation from "./components/CorpRelation";
 import Donation from "./components/Donation";
 import ResearchLabs from "./components/ResearchLabs";
 import Newsletter from "./components/Newsletter";
+import InfoForCompany from "./components/InfoForCompany";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <>
       <Router>
+          <ScrollToTop />
           <Navbar/>
           <Routes>
             <Route exact path="/" element={<Home/>}/>
@@ -67,27 +66,28 @@ function App() {
             <Route exact path="/completedProjects" element={<CompProj/>}/>
             <Route exact path="/sponsorsColabs" element={<SponsColab/>}/>
             <Route exact path="/webinars" element={<Webinar/>}/>
-            <Route exact path="/chaitanya-talk" element={<Chaitanya_talk/>}/>
-            <Route exact path="/mandalSandeep-talk" element={<Mandal_Sandeep_talk/>}/>
-            <Route exact path="/aakash-talk" element={<Aakash_talk/>}/>
-            <Route exact path="/manisha-talk" element={<Manisha_talk/>}/>
-            <Route exact path="/rajdip-talk" element={<Rajdip_talk/>}/>
-            <Route exact path="/masaru-talk" element={<Masaru_talk/>}/>
-            <Route exact path="/sarvesh-talk" element={<Sarvesh_talk/>}/>
-            <Route exact path="/jessica-talk" element={<Jessica_talk/>}/>
-            <Route exact path="/rajaram-talk" element={<Rajaram_talk/>}/>
-            <Route exact path="/ravindra-talk" element={<Ravindra_talk/>}/>
-            <Route exact path="/nachiket-talk" element={<Nachiket_talk/>}/>
-            <Route exact path="/naveen-talk" element={<Naveen_talk/>}/>
-            <Route exact path="/spc-talk" element={<Surya_talk/>}/>
-            <Route exact path="/pradip-talk" element={<Pradip_talk/>}/>
-            <Route exact path="/guruswamy-talk" element={<Guruswamy_talk/>}/>
-            <Route exact path="/yamuna-talk" element={<Yamuna_talk/>}/>
-            <Route exact path="/jhumpa-talk" element={<Jhumpa_talk/>}/>
+            <Route exact path="/chaitanya-talk" element={<ChaitanyaTalk/>}/>
+            <Route exact path="/mandalSandeep-talk" element={<MandalSandeepTalk/>}/>
+            <Route exact path="/aakash-talk" element={<AakashTalk/>}/>
+            <Route exact path="/manisha-talk" element={<ManishaTalk/>}/>
+            <Route exact path="/rajdip-talk" element={<RajdipTalk/>}/>
+            <Route exact path="/masaru-talk" element={<MasaruTalk/>}/>
+            <Route exact path="/sarvesh-talk" element={<SarveshTalk/>}/>
+            <Route exact path="/jessica-talk" element={<JessicaTalk/>}/>
+            <Route exact path="/rajaram-talk" element={<RajaramTalk/>}/>
+            <Route exact path="/ravindra-talk" element={<RavindraTalk/>}/>
+            <Route exact path="/nachiket-talk" element={<NachiketTalk/>}/>
+            <Route exact path="/naveen-talk" element={<NaveenTalk/>}/>
+            <Route exact path="/spc-talk" element={<SuryaTalk/>}/>
+            <Route exact path="/pradip-talk" element={<PradipTalk/>}/>
+            <Route exact path="/guruswamy-talk" element={<GuruswamyTalk/>}/>
+            <Route exact path="/yamuna-talk" element={<YamunaTalk/>}/>
+            <Route exact path="/jhumpa-talk" element={<JhumpaTalk/>}/>
             <Route exact path="/corpBrochure" element={<CorpRelation/>}/>
             <Route exact path="/researchArea" element={<ResearchLabs/>}/>
             <Route exact path="/newsLetter" element={<Newsletter/>}/>
             <Route exact path="/donate" element={<Donation/>}/>
+            <Route exact path="/infoComp" element={<InfoForCompany/>}/>
             <Route exact path="/contact" element={<Contact/>}/>
             <Route exact path="/faq" element={<Faq/>}/>
           </Routes>
@@ -97,3 +97,41 @@ function App() {
   );
 }
 export default App;
+document.addEventListener('DOMContentLoaded', () => {
+  // "use strict";
+
+  /**
+   * Mobile nav toggle
+   */
+  const mobileNavToogle = document.querySelector('.mobile-nav-toggle');
+  if (mobileNavToogle) {
+    mobileNavToogle.addEventListener('click', function(event) {
+      event.preventDefault();
+
+      document.querySelector('body').classList.toggle('mobile-nav-active');
+
+      this.classList.toggle('bi-list');
+      this.classList.toggle('bi-x');
+    });
+  }
+
+  /**
+   * Toggle mobile nav dropdowns
+   */
+  const navDropdowns = document.querySelectorAll('.navbar .dropdown > a');
+
+  navDropdowns.forEach(el => {
+    el.addEventListener('click', function(event) {
+      if (document.querySelector('.mobile-nav-active')) {
+        event.preventDefault();
+        this.classList.toggle('active');
+        this.nextElementSibling.classList.toggle('dropdown-active');
+
+        let dropDownIndicator = this.querySelector('.dropdown-indicator');
+        dropDownIndicator.classList.toggle('bi-chevron-up');
+        dropDownIndicator.classList.toggle('bi-chevron-down');
+      }
+    })
+  });
+
+});

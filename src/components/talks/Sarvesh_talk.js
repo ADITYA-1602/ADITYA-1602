@@ -4,20 +4,15 @@ export default function Sarvesh_talk() {
     return (
         <>
             <Navbar/>
-            <div className="container">
-                <img style={{marginTop:"75px",width:'80%',marginLeft:'125px'}} src={process.env.PUBLIC_URL + '/Images/iitj.jpeg'} className="img-fluid" alt=""/>
-                <div className='header-title'>
-                    <h1 className='page-title'>
-                        <span>Engineered Living Materials and Smart Microdevices</span>
-                    </h1>
-                </div>
-            </div>
             {/* <!-- ======= Details Section ======= --> */}
             <section id="blog" className="blog">
                 <div className="container" data-aos="fade-up" data-aos-delay="100">
                     <div className="row g-5">
                         <div className="col-lg-11">
                             <article className="blog-details">
+                                <div className="entry-img">
+                                    <img src={process.env.PUBLIC_URL + '/Images/iitj.jpeg'} className="img-fluid" alt=""/>
+                                </div>
                                 <h2 className="title">Chemical Engineering Department Seminar Series - Talk by Dr. Sarvesh Srivastava</h2>
                                 <div className="meta-top">
                                     <ul>

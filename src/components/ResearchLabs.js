@@ -61,7 +61,7 @@ export default function ResearchLabs() {
                         <div className='col-lg-9 col-md-9 col-sm-9 col-xs-12'>
                             <hr></hr>
                         </div>
-                        <div className='col-lg-8 col-md-8 col-sm-8 col-xs-12' style={{paddingTop:'7px'}}>
+                        {/* <div className='col-lg-8 col-md-8 col-sm-8 col-xs-12' style={{paddingTop:'7px'}}>
                             <div className='about-page-content-holder'>
                                 <div className='content-box'>
                                     <h5><span class='bi bi-caret-right-fill'> Design Engineering Lab</span></h5>
@@ -71,7 +71,7 @@ export default function ResearchLabs() {
                         </div>
                         <div className='col-lg-9 col-md-9 col-sm-9 col-xs-12'>
                             <hr></hr>
-                        </div>
+                        </div> */}
                         <div className='col-lg-8 col-md-8 col-sm-8 col-xs-12' style={{paddingTop:'7px'}}>
                             <div className='about-page-content-holder'>
                                 <div className='content-box'>
@@ -170,6 +170,14 @@ export default function ResearchLabs() {
                                 <strong>PhotoCatER Lab</strong><br></br>
                                 Principal Investigator: Dr. Ramesh Asapu<br></br>
                                 Location: 205, Anantaraman Building<br></br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11</th>
+                            <td>
+                                <strong>Computational Molecular and Macromolecular Design</strong><br></br>
+                                Principal Investigator: Dr. Praveen K Sappidi<br></br>
+                                Location: To be Updated<br></br>
                             </td>
                         </tr>
                     </tbody>

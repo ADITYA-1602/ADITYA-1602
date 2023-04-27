@@ -1,6 +1,37 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 export default function Navbar(){
+    useEffect(() => {
+        /**
+         * Mobile nav toggle
+         */
+        const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+        if (mobileNavToggle) {
+            mobileNavToggle.addEventListener('click', function(event) {
+                event.preventDefault();
+                document.querySelector('body').classList.toggle('mobile-nav-active');
+                this.classList.toggle('bi-list');
+                this.classList.toggle('bi-x');
+            });
+        }
+
+        /**
+         * Toggle mobile nav dropdowns
+         */
+        const navDropdowns = document.querySelectorAll('.navbar .dropdown > a');
+        navDropdowns.forEach(el => {
+            el.addEventListener('click', function(event) {
+                if (document.querySelector('.mobile-nav-toggle').classList.contains('bi-x')) {
+                    event.preventDefault();
+                    this.classList.toggle('active');
+                    this.nextElementSibling.classList.toggle('dropdown-active');
+                    let dropDownIndicator = this.querySelector('.dropdown-indicator');
+                    dropDownIndicator.classList.toggle('bi-chevron-up');
+                    dropDownIndicator.classList.toggle('bi-chevron-down');
+                }
+            })
+        });
+    }, []);
     return(
         <>
             {/* <!-- ======= Header ======= --> */}
@@ -95,3 +126,4 @@ export default function Navbar(){
         </>
     )
 }
+

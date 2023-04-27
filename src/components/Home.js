@@ -229,7 +229,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                        {/* <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
                             <div className="service-item">
                                 <div className="img">
                                     <img src={process.env.PUBLIC_URL + '/Images/Research/services-3.jpg'} className="img-fluid" alt="DesignEngineering"/>
@@ -244,7 +244,7 @@ export default function Home() {
                                     <p>Design is a field of study that involves the creation and optimization of chemical processes and equipments.</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
                             <div className="service-item">
                                 <div className="img">
