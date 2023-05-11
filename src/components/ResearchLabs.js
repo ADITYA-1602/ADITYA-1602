@@ -15,7 +15,7 @@ export default function ResearchLabs() {
                 <br></br><br></br>
                 <div className='container' style={{padding:'0 35px 0 35px'}}>
                     <h3>Laboratories</h3>
-                    <p style={{textAlign:'justify'}}>The department has well-designed experimental sets with computer interfaces and process automation. The department currently contains laboratories for design engineering, reaction engineering, process control, heat transfer, and mass transfer. The following is a summary of the various lab equipment for Undergraduate and Postgraduate laboratories:</p>
+                    <p style={{textAlign:'justify'}}>The department has well-designed experimental sets with computer interfaces and process automation. The department currently contains laboratories for reaction engineering, process control, heat transfer, fluid mechanics and mass transfer. The following is a summary of the various lab equipment for Undergraduate and Postgraduate laboratories:</p>
                     <div className='container'>
                         <div className='col-lg-8 col-md-8 col-sm-8 col-xs-12' style={{paddingTop:'7px'}}>
                             <div className='about-page-content-holder'>

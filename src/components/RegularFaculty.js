@@ -30,7 +30,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Pradip K Tewari</h4>
                                     <span>Jal Jeevan Mission Professor Chair and Head of Department</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D.:Indian Institute of Technology Bombay</span></p>
+                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Bombay</span></p>
                                     <p style={{textAlign:'justify'}}>Water Technologies; Membrane Technology; Desalination; Nanocomposite Membrane Technology; Heat Transfer and Two Phase Flow.</p>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Abhilasha Maheshwari</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D.:Indian Institute of Technology Bombay & Washington University</span></p>
+                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Bombay & Washington University</span></p>
                                     <p>Process Systems Engineering; Water Distribution Networks; Modelling; Optimization; Sustainability; Environmental Chemistry</p>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Angan Sengupta</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D.:Indian Institute of Technology Bombay</span></p>
+                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Bombay</span></p>
                                     <p>Molecular Modelling & Simulation; Theoretical Material Design; Carbon dioxide Capture; Hydrogen Storage; Water Treatment; Fuel Cell; Thermodynamic Studies; Continuum Modelling & Simulation; Fire and Explosion Modelling; Steady and Transient State Modelling; Safety Modelling; Process Modelling; Transport Processes</p>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Deepak Arora</h4>
                                     <span>Associate Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D.:University of Massachusetts Amherst</span></p>
+                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :University of Massachusetts Amherst</span></p>
                                     <p>Adhesion in electronic packaging and manufacture of high density interconnects; Polymer rheology; Polymer crystallization; Dielectrics for electronic packaging; Structure-process-property relationships for polymers and their composites</p>
                                 </div>
                             </div>
@@ -108,9 +108,9 @@ export default function RegularFaculty() {
                                     </div>
                                 </div>
                                 <div className="member-info">
-                                    <h4>Dr Krunal M. Gangawane</h4>
+                                    <h4>Krunal M. Gangawane</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D.:Indian Institute of Technology Roorkee</span></p>
+                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Roorkee</span></p>
                                     <p>CFD; Lattice Boltzmann method; Aerogels; Nanoparticles-based phase change material</p>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Nirmalya Bachhar</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D.:Indian Institute of Technology Bombay</span></p>
+                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Bombay</span></p>
                                     <p>Nanomaterials; polymer nanocomposite; self-assembly</p>
                                 </div>
                             </div>
@@ -150,7 +150,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Prasenjit Sarkar</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D.:North Carolina State University</span></p>
+                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :North Carolina State University</span></p>
                                     <p>Biomolecular Engineering; Biochemical Engineering</p>
                                 </div>
                             </div>
@@ -170,7 +170,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Prashant Kumar Gupta</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D.:Indian Institute of Technology Kanpur</span></p>
+                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Kanpur</span></p>
                                     <p>lectrochemical Energy Storage Devices (Lithium, Sodium and Zinc Ion Battery), Electrocatalysis (HER, OER, CER, and Electrochemical CO2 Reduction), Electrochemical Biosensors</p>
                                 </div>
                             </div>
@@ -190,7 +190,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Praveen Kumar Sappidi</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D.:Indian Institute of Technology Madras</span></p>
+                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Madras</span></p>
                                     <p>Multiscale modeling, Molecular simulation, Free energy simulations, Contaminant separation materials, Ionic liquid based solvents, Polymeric materials</p>
                                 </div>
                             </div>
@@ -210,7 +210,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Ramesh Asapu</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D.:University of Antwerp, Belgium</span></p>
+                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :University of Antwerp, Belgium</span></p>
                                     <p>Photocatalysis; Environmental remediation; Modeling & Simulation; Plasmonic nanomaterials; Perovskites</p>
                                 </div>
                             </div>
@@ -230,7 +230,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Sumit Kamal</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D.:Indian Institute of Technology Bombay</span></p>
+                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Bombay</span></p>
                                     <p>Fine Chemicals; Catalysis and Reaction Engineering, Process Development; Green Technology; Chemical Reaction Kinetics</p>
                                 </div>
                             </div>
@@ -250,7 +250,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Tara Chand Kumawat</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D.:Indian Institute of Technology Kanpur</span></p>
+                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Kanpur</span></p>
                                     <p>Hydrodynamic stability; flow through porous media; Computational Fluid Dynamics; Antibubbles</p>
                                 </div>
                             </div>
@@ -270,7 +270,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Vikky Anand</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D.:Indian Institute of Technology Bombay</span></p>
+                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Bombay</span></p>
                                     <p>Electrohydrodynamics; Multiphase flow; Electro-desalting; Soft matter; Rheology</p>
                                 </div>
                             </div>

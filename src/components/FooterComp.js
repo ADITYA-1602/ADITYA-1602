@@ -96,6 +96,10 @@ export default function FooterComp() {
                                     <input type="email" name="email" required/>
                                     <input type="submit" value="Subscribe" onClick={handleClick}/>
                                 </form>
+                                <div className="row">
+                                    <img src={process.env.PUBLIC_URL + '/Images/150_years.jpeg'} className="img-fluid" alt="" style={{width:'34%',padding:'10px',margin:'5px 0px 0px 25px'}}/>
+                                    <img src={process.env.PUBLIC_URL + '/Images/75_Years.jpeg'} className="img-fluid" alt="" style={{width:'40%',padding:'10px',margin:'5px 0px 0px 25px'}}/>
+                                </div>
                             </div>
                         </div>
                     </div>

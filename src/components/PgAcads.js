@@ -13,12 +13,12 @@ export default function PgAcads() {
             </div>
             <br></br><br></br>
             <div className='container'>
-                <p>The Department of Chemical Engineering offers the following Postgraduate Programs:</p>
+                <p style={{textAlign:"justify"}}>The Department of Chemical Engineering offers the following Postgraduate Programs:</p>
                 <div className='container'>
                     <p><span style={{fontWeight:'bold'}}>Master of Technology Program:  M.Tech. in Chemical Engineering</span></p>
                     <p><span style={{fontWeight:'bold'}}>Master of Technology-Doctor of Philosophy Dual Degree Program: M.Tech.-Ph.D. Dual Degree in Chemical Engineering</span></p>
                 </div>
-                <p>Through the M.Tech. and M.Tech-Ph.D. programs in Chemical Engineering, IIT Jodhpur is making a conscious effort to divulge from the traditional path and planning to establish itself to become a leading institute in this new genre of Chemical Engineering education. The program involves a mix of traditional courses followed by electives to specialize in the three chosen areas; i) Industry 4.0+Data Analytics; ii) Reaction Engineering; iii) Petroleum and Petrochemicals. Further, the project component ensures hands-on problem-solving skills to enable solving industrial problems as well as undertake research in the different areas of chosen field.</p>
+                <p style={{textAlign:"justify"}}>Through the M.Tech. and M.Tech-Ph.D. programs in Chemical Engineering, IIT Jodhpur is making a conscious effort to divulge from the traditional path and planning to establish itself to become a leading institute in this new genre of Chemical Engineering education. The program involves a mix of traditional courses followed by electives to specialize in the three chosen areas; i) Industry 4.0+Data Analytics; ii) Reaction Engineering; iii) Petroleum and Petrochemicals. Further, the project component ensures hands-on problem-solving skills to enable solving industrial problems as well as undertake research in the different areas of chosen field.</p>
             </div>
             <br></br>
             <div className='container'>

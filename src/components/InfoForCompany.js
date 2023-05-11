@@ -14,12 +14,11 @@ export default function InfoForCompany() {
                 <div className="container" data-aos="fade-up">
                     <div className="section-title">
                         <h2>Key Research Areas</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                     </div>
                     <div className="row">
                         <div className="col-lg-3 col-md-4">
                             <div className="icon-box">
-                                <i className="fa-solid fa-hand-holding-droplet" style={{color: '#ffbb2c'}}></i>
+                                <i className="fa-solid fa-hand-holding-droplet" style={{color: '#47aeff'}}></i>
                                 <h3>Water & Membrane Technologies</h3>
                             </div>
                         </div>
@@ -37,13 +36,13 @@ export default function InfoForCompany() {
                         </div>
                         <div className="col-lg-3 col-md-4 mt-4 mt-lg-0">
                             <div className="icon-box">
-                                <i className="fa-sharp fa-solid fa-plant-wilt" style={{color: "#e361ff"}}></i>
+                                <i className="fa-sharp fa-solid fa-plant-wilt" style={{color: "#29cc61"}}></i>
                                 <h3>Environmental Remediation</h3>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-4 mt-4">
                             <div className="icon-box">
-                                <i className="fa-solid fa-biohazard" style={{color: "#47aeff"}}></i>
+                                <i className="fa-solid fa-biohazard" style={{color: "#ffbb2c"}}></i>
                                 <h3>Multiscale Modeling, Molecular Simulation</h3>
                             </div>
                         </div>
@@ -85,7 +84,7 @@ export default function InfoForCompany() {
                         </div>
                         <div className="col-lg-3 col-md-4 mt-4">
                             <div className="icon-box">
-                                <i className="fa-solid fa-c" style={{color: "#29cc61"}}></i>
+                                <i className="fa-solid fa-c" style={{color: "#e361ff"}}></i>
                                 <h3>Catalysis</h3>
                             </div>
                         </div>
@@ -96,18 +95,17 @@ export default function InfoForCompany() {
                 <div className="container" data-aos="fade-up">
                     <div className="section-title">
                         <h2>Applications</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                     </div>
                     <div className="row">
                         <div className="col-lg-3 col-md-4">
                             <div className="icon-box">
-                                <i className="fa-solid fa-hand-holding-droplet" style={{color: '#ffbb2c'}}></i>
+                                <i className="fa-solid fa-hand-holding-droplet" style={{color: '#47aeff'}}></i>
                                 <h3>Jal Jeevan Mission, Drinking water</h3>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                             <div className="icon-box">
-                                <i className="fa-solid fa-atom" style={{color: '#5578ff'}}></i>
+                                <i className="fa-solid fa-atom" style={{color: '#29cc61'}}></i>
                                 <h3>Batteries, Green Hydrogen</h3>
                             </div>
                         </div>
@@ -125,7 +123,7 @@ export default function InfoForCompany() {
                         </div>
                         <div className="col-lg-3 col-md-4 mt-4">
                             <div className="icon-box">
-                                <i className="fa-solid fa-oil-well" style={{color: "#47aeff"}}></i>
+                                <i className="fa-solid fa-oil-well" style={{color: "#5578ff"}}></i>
                                 <h3>ML for Oil Industries</h3>
                             </div>
                         </div>

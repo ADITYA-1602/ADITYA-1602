@@ -32,9 +32,6 @@ h6 {
 .container ul{
   text-align:justify;
 }
-.container p{
-  text-align:justify;
-}
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -346,7 +343,7 @@ h6 {
   }
 }
 .breadcrumbs {
-  margin-top: 85px;
+  margin-top: 165px;
   text-align: center;
   background: #5fcf80;
   padding: 30px 0;
@@ -355,18 +352,19 @@ h6 {
 
 @media (max-width: 992px) {
   .breadcrumbs {
-    margin-top: 73px;
+    margin-top: 95px;
   }
 }
 
 .breadcrumbs h2 {
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 800;
 }
 .dark-carousel {
   background-color: #333;
   color: #fff;
 }
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -400,7 +398,6 @@ section {
 /* Advanced Featuress Section
 --------------------------------*/
 #advanced-features {
-  /* margin-top: 20px; */
   overflow: hidden;
   background: #eff5f5;
 }
@@ -445,7 +442,7 @@ section {
 /* Counter Section
 --------------------------------*/
 #counter {
-  margin-top: 60px;
+  margin-top: 40px;
   padding: 30px 0;
 }
 
@@ -470,7 +467,8 @@ section {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 24px;
+  font-weight: 800;
   color: #8a87b6;
 }
 /*--------------------------------------------------------------
@@ -796,7 +794,7 @@ section {
 .team .member .member-info span {
   display: block;
   font-size: 13px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 400;
   margin-bottom: 15px;
   color: #68A4C4;
@@ -1053,7 +1051,7 @@ section {
 
 .faq .faq-list li {
   border-bottom: 1px solid #eee;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   padding-bottom: 20px;
 }
 
@@ -1111,7 +1109,7 @@ section {
 }
 
 #footer .footer-top {
-  padding: 60px 0 30px 0;
+  padding: 30px 0 0px 0;
   background: #f9faf9;
 }
 
@@ -1289,7 +1287,7 @@ section {
   padding: 50px 0 20px 0;
 }
 .blog .blog-details {
-  margin-top: 30px;
+  margin-top: 90px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   margin-left: 100px;
   padding: 30px;

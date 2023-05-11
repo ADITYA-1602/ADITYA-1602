@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <Navbar/>
-            <Carousel fade style={{marginTop:'85px'}} data-aos="fade-down">
+            <Carousel fade style={{marginTop:'165px'}} data-aos="fade-down">
                 <Carousel.Item interval={1000}>
                     <img
                     className="d-block w-100"
@@ -197,39 +197,7 @@ export default function Home() {
                         <h2>Research Areas</h2>
                     </div>
                     <div className="row gy-5">
-                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-                            <div className="service-item">
-                                <div className="img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Research/ReactionLab.JPG'} className="img-fluid" alt="ReactionEngineering"/>
-                                </div>
-                                <div className="details position-relative">
-                                    <div className="icon">
-                                        <i className="bi bi-activity"></i>
-                                    </div>
-                                    <Link aria-current="page" to="/researchArea" className="stretched-link">
-                                    <h3>REACTION ENGINEERING</h3>
-                                    </Link>
-                                    <p>Reaction engineering is a field of study that focuses on the design and optimization of chemical and biochemical reactions.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-                            <div className="service-item">
-                                <div className="img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Research/MassTransfer.JPG'} className="img-fluid" alt="MassTransfer"/>
-                                </div>
-                                <div className="details position-relative">
-                                    <div className="icon">
-                                        <i className="bi bi-broadcast"></i>
-                                    </div>
-                                    <Link aria-current="page" to="/researchArea" className="stretched-link">
-                                    <h3>MASS TRANSFER</h3>
-                                    </Link>
-                                    <p>Mass transfer is a field of study that encompasses the movement of mass from one phase to another. </p>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                        {/* <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400" style={{marginLeft:'auto',marginRight:'auto'}}>
                             <div className="service-item">
                                 <div className="img">
                                     <img src={process.env.PUBLIC_URL + '/Images/Research/services-3.jpg'} className="img-fluid" alt="DesignEngineering"/>
@@ -245,7 +213,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div> */}
-                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                             <div className="service-item">
                                 <div className="img">
                                     <img src={process.env.PUBLIC_URL + '/Images/Research/Process control lab1.jpg'} className="img-fluid" alt="ProcessControl"/>
@@ -261,7 +229,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600" style={{marginLeft:'auto',marginRight:'auto'}}>
+                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400" style={{marginLeft:'auto',marginRight:'auto'}}>
                             <div className="service-item">
                                 <div className="img">
                                     <img src={process.env.PUBLIC_URL + '/Images/Research/Heat Transfer lab.jpg'} className="img-fluid" alt="HeatTransfer"/>
@@ -277,7 +245,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700" style={{marginLeft:'auto',marginRight:'auto'}}>
+                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500" style={{marginLeft:'auto',marginRight:'auto'}}>
                             <div className="service-item">
                                 <div className="img">
                                     <img src={process.env.PUBLIC_URL + '/Images/Research/Fluid Mechanics lab.jpg'} className="img-fluid" alt="FluidMechanics"/>
@@ -292,6 +260,38 @@ export default function Home() {
                                         <p>Fluid mechanics is a fundamental area of study in chemical engineering that focuses on the behavior of fluids.</p>
                                     </div>
                                 </div>
+                        </div>
+                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300" style={{marginLeft:'auto',marginRight:'auto'}}>
+                            <div className="service-item">
+                                <div className="img">
+                                    <img src={process.env.PUBLIC_URL + '/Images/Research/ReactionLab.JPG'} className="img-fluid" alt="ReactionEngineering"/>
+                                </div>
+                                <div className="details position-relative">
+                                    <div className="icon">
+                                        <i className="bi bi-activity"></i>
+                                    </div>
+                                    <Link aria-current="page" to="/researchArea" className="stretched-link">
+                                    <h3>REACTION ENGINEERING</h3>
+                                    </Link>
+                                    <p>Reaction engineering is a field of study that focuses on the design and optimization of chemical and biochemical reactions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400" style={{marginLeft:'auto',marginRight:'auto'}}>
+                            <div className="service-item">
+                                <div className="img">
+                                    <img src={process.env.PUBLIC_URL + '/Images/Research/MassTransfer.JPG'} className="img-fluid" alt="MassTransfer"/>
+                                </div>
+                                <div className="details position-relative">
+                                    <div className="icon">
+                                        <i className="bi bi-broadcast"></i>
+                                    </div>
+                                    <Link aria-current="page" to="/researchArea" className="stretched-link">
+                                    <h3>MASS TRANSFER</h3>
+                                    </Link>
+                                    <p>Mass transfer is a field of study that encompasses the movement of mass from one phase to another. </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
